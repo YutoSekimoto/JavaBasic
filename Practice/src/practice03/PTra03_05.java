@@ -34,5 +34,19 @@ public class PTra03_05 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		if(num >= 75) {
+
+			System.out.println("雨が降る確率が高いです");
+
+		}else if(num >= 30 && num <= 75) {
+
+			System.out.println("雨が降るかもしれないです");
+
+		}else {
+
+			System.out.println("雨はまず降らないでしょう");
+
+		}
+
 	}
 }
