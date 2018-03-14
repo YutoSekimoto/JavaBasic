@@ -48,7 +48,7 @@ public class PTra08_06 {
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
 
-public static void dispValue(char message) {
+    public static void dispValue(char message) {
 
 		System.out.println("「" + message + "」");
 
