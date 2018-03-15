@@ -45,9 +45,15 @@ public class PTra06_07 {
 
 			if(i >= 7) {
 
-				for(int j = 1; j <= i - 3; j++) {
+				for(int j = 10; j >= i ; j--) {
 
 					System.out.print("■");
+
+				}
+
+				for(int k = 7; k <= i; k++) {
+
+					System.out.print("□");
 
 				}
 
