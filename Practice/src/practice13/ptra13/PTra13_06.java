@@ -8,6 +8,7 @@ package practice13.ptra13;
 
 public class PTra13_06 {
 
+
 	/*
 	 * ★ common.Heroクラスを継承した、common.SuperHeroクラスを作成してください
 	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
