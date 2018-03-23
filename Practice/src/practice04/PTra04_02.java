@@ -35,7 +35,7 @@ public class PTra04_02 {
 
 				}
 
-			index += 1;
+			index++;
 
 			// ★ 変数indexの値が3で割り切れ、5で割り切れない場合は、「Fizz」と出力
 

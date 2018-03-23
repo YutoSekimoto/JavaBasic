@@ -10,7 +10,7 @@ public class PTra11_02 {
 	public static void main(String[] args) {
 
 		// ★ ReadFileClassのクラスメソッドreadBookDataFile()を使い、本情報を取得します
-		Book[] books = ReadFileClass.readBookDataFile();
+		Book[] books = FileReaderClass.readBookDataFile();
 
 
 
@@ -18,6 +18,17 @@ public class PTra11_02 {
 
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
 		String input = new java.util.Scanner(System.in).nextLine();
+
+		for(Book value : books) {
+
+			if(value.title.contains(input)) {
+
+				System.out.println(value.dispBookInfo());
+				System.out.println();
+
+			}
+
+		}
 
 	}
 }

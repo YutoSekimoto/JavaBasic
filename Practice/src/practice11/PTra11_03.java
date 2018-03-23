@@ -36,7 +36,7 @@ public class PTra11_03 {
 	public void sum(int x, int y) {
 		System.out.println("sumメソッドを呼び出しました。" + x + "＋" + y + "＝" + (x + y));
 
-		System.out.println("クラスフィールドnumber：" /* + ★ クラスフィールドnumberの出力をしてください */);
-		System.out.println(number);
+		System.out.println("クラスフィールドnumber：" + this.number /* + ★ クラスフィールドnumberの出力をしてください */);
+
 	}
 }

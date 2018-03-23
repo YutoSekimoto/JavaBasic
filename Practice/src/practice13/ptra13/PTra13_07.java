@@ -23,6 +23,7 @@ public class PTra13_07 {
 		superHero.setName("勇者（装備あり）");
 
 		Slime slime = new Slime(10,5,2);
+		slime.setName("スライム");
 
 		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）をコンストラクタの引数にしてください
 		Item item = new Item("こんぼう" , 4);

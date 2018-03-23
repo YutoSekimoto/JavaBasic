@@ -49,6 +49,7 @@ public class PTra04_05 {
 
 				if(myHand == 2) {
 
+					System.out.println("あなたの勝ちです");
 					winFlg = true;
 
 				}
@@ -60,6 +61,7 @@ public class PTra04_05 {
 
 				if(myHand == 0) {
 
+					System.out.println("あなたの勝ちです");
 					winFlg = true;
 
 				}
@@ -71,6 +73,7 @@ public class PTra04_05 {
 
 				if(myHand == 1) {
 
+					System.out.println("あなたの勝ちです");
 					winFlg =true;
 
 				}

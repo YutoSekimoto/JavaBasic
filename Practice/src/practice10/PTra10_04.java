@@ -45,7 +45,7 @@ public class PTra10_04 {
 			// ★ ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
 
 			User us = new User();
-			us.userId = array[0];
+			us.userId = Integer.parseInt(array[0]);
 			us.userNm = array[1];
 			us.mail = array[2];
 			us.password = array[3];

@@ -20,14 +20,14 @@ public class PTra16_02 {
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 
-		Boolean b2 = new Boolean(b);
-		Byte by2 = new Byte(by);
-		Short s2 = new Short(s);
-		Character c2 = new Character(c);
-		Integer i2 = new Integer(i);
-		Long l2 = new Long(l);
-		Float f2 = new Float(f);
-		Double d2 = new Double(d);
+		Boolean b2 = b;
+		Byte by2 = by;
+		Short s2 = s;
+		Character c2 = c;
+		Integer i2 = i;
+		Long l2 = l;
+		Float f2 = f;
+		Double d2 = d;
 
 	}
 }
